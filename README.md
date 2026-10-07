@@ -26,3 +26,7 @@ Sau đó mở http://localhost:8080/dist/.
 
 Mã nguồn và toàn bộ hình ảnh nằm trong `dist/`. Xem `ASSETS.md` về tài sản hình ảnh, `HUONG-DAN.txt` để chạy bản offline.
 
+
+## v11.1
+
+Các tộc tự chọn tên riêng khi lập quốc; tên giữ nguyên khi vua kế vị và lưu/tải thế giới. Khu định cư khai phá tiếp tục thuộc vương quốc mẹ. Tải `Mam-The-Gioi-v11.1.zip` để thử bản offline mới nhất.
