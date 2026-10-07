@@ -1,0 +1,23 @@
+MẦM THẾ GIỚI — BẢN CHẠY THỬ v10.4
+
+1. Giải nén toàn bộ ZIP vào một thư mục trên máy.
+2. Nhấp đúp CHOI-GAME.cmd hoặc mở index.html bằng Chrome / Edge / Firefox.
+3. Game chạy trong trình duyệt, không cần cài đặt và không cần Internet.
+   Không mở index.html ngay bên trong cửa sổ ZIP: hãy giải nén trước.
+
+ĐIỀU KHIỂN
+- Chuột trái: dùng công cụ / quyền năng đang chọn.
+- Giữ chuột phải và kéo: xem các vùng trên bản đồ.
+- Các nút + / −: phóng to / thu nhỏ.
+- Space: tạm dừng. Phím 1 / 2 / 3: đổi tốc độ.
+- Nút ?: mở hướng dẫn trong game.
+
+LƯU THẾ GIỚI
+- Dùng Lưu > tải tệp JSON để giữ bản lưu riêng và chuyển giữa các máy.
+- Dùng Tải > nhập tệp để mở lại thế giới.
+- Bản lưu của game trên website không tự chuyển sang bản offline.
+- Lưu trong trình duyệt phụ thuộc trình duyệt và vị trí thư mục game;
+  nên xuất JSON trước khi chuyển thư mục, đổi trình duyệt hoặc xóa dữ liệu.
+
+Ở tốc độ 1×, một ngày trong game bằng 20 phút ngoài đời.
+Đây là bản game trình duyệt đóng gói offline, không phải file cài đặt EXE.
