@@ -1,6 +1,8 @@
 # Mầm Thế Giới
 
-Game sandbox tiếng Việt: tạo địa hình, thả sinh vật, sử dụng quyền năng và quan sát các nền văn minh phát triển. Bản v10.4.
+Game sandbox tiếng Việt: tạo địa hình, thả sinh vật, sử dụng quyền năng và quan sát các nền văn minh phát triển. Bản v11: liên minh, quan hệ ngoại giao và đoàn hàng hữu hạn. Mở nút Đời sống trong game để quản lý.
+
+Tải `Mam-The-Gioi-v11.zip`, giải nén rồi mở `CHOI-GAME.cmd` để chơi offline.
 
 ## Chạy thử
 
@@ -23,3 +25,4 @@ Sau đó mở http://localhost:8080/dist/.
 - Ở 1×, một ngày trong game bằng 20 phút ngoài đời.
 
 Mã nguồn và toàn bộ hình ảnh nằm trong `dist/`. Xem `ASSETS.md` về tài sản hình ảnh, `HUONG-DAN.txt` để chạy bản offline.
+
