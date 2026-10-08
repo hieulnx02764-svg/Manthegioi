@@ -1,5 +1,12 @@
 # Mầm Thế Giới
 
+## Bản12.1 — Sprite sheet toàn bộ sinh vật
+
+Năm PNG RGBA mới trong `dist/assets/animation/`:6 tộc người,5 động vật thường,6 sinh vật cổ đại, tổng17 loại ×6 khung =102. Khung: đứng, bước A/B, làm việc/kiếm ăn/tấn công, mang gỗ/cảnh giác, ngủ. Sheet được chuẩn hóa theo alpha một lần khi tải; các cá thể dùng chung canvas64px, chọn khung theo chuyển động/hành động và lật đúng chiều. Người đang mang vật liệu dùng thân mang gỗ và chân đi. Trẻ em/con non thu nhỏ; người đang trong nhà vẫn được ẩn. Lớp chiều sâu dùng kích thước sprite mới. Trang `dist/sprite-gallery.html` xem đủ khung và tảiPNGgốc.
+
+Ảnh tạo bằng công cụ imagegen tích hợp; prompt và danh sách hàng nằm trong `dist/assets/animation/ASSETS.json`. Không sửaPNGgốc; alpha bounds được lưu trong `dist/animation-metadata.js`. Giữ clock20 phút/ngày, dữ liệu gia đình, nhà3 người và save cũ.
+
+
 ## Bản 12 — Hệ sinh thái và gia đình
 
 Mỗi nhà chứa tối đa 3 cư dân. Cư dân trưởng thành hỗ trợ thợ xây khi thiếu chỗ; khu định cư mở rộng khu nhà và dành chỗ cho trẻ em. Hai người trưởng thành cùng tộc lập gia đình, chuyển tới nhà còn chỗ, cần đủ lương thực/nước và thế giới không đang chiến tranh mới sinh con. Thai kỳ sandbox dài 1/4 ngày (5 phút ở 1×), mỗi lần sinh cách nhau tối thiểu một ngày. Em bé lưu cả hai bố mẹ và thế hệ. Luật Sinh sản vẫn điều khiển việc sinh con.

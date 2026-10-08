@@ -1,0 +1,58 @@
+{
+  "generator": "Built-in imagegen",
+  "format": "Transparent PNG; generated sources preserved, alpha bounds normalized at runtime",
+  "sheets": [
+    {
+      "file": "people-light-v1.png",
+      "rows": [
+        "human peasant with brown hair and teal tunic",
+        "slender elf with pointy ears, blond hair and green tunic",
+        "short stocky dwarf with orange beard and bronze work clothes"
+      ],
+      "framesPerRow": 6,
+      "prompt": "Production sprite sheet for Vietnamese pixel god sandbox Mam The Gioi. ONE transparent PNG, exactly 6 COLUMNS x 3 ROWS. Each row same character consistent design and size. Rows top to bottom: 1: human peasant with brown hair and teal tunic; 2: slender elf with pointy ears, blond hair and green tunic; 3: short stocky dwarf with orange beard and bronze work clothes. Columns left to right: 1 standing idle, 2 walking right left foot forward, 3 walking right right foot forward, 4 swinging small axe chopping, 5 carrying a bundle of wood, 6 lying down sleeping. Facing RIGHT in all standing/action frames, three-quarter top-down view. Cute detailed readable pixel art, dark earthy outline, compact WorldBox-like original characters. Equal rectangular cells evenly spaced. Entire figures INSIDE their cell with generous clear alpha margin, same ground baseline and body size per row. Exact 18 figures only. Transparent alpha background, no gradients/shadows/glow/gridlines/labels/text. No objects outside figures. Animation frames, not concept art."
+    },
+    {
+      "file": "people-dark-v1.png",
+      "rows": [
+        "muscular green orc wearing brown leather",
+        "small olive goblin with pointed ears wearing blue miner clothes",
+        "fox beastkin humanoid with amber fur, fox ears and tail wearing purple tunic"
+      ],
+      "framesPerRow": 6,
+      "prompt": "Production sprite sheet for Vietnamese pixel god sandbox Mam The Gioi. ONE transparent PNG, exactly 6 COLUMNS x 3 ROWS. Each row same character consistent design and size. Rows top to bottom: 1: muscular green orc wearing brown leather; 2: small olive goblin with pointed ears wearing blue miner clothes; 3: fox beastkin humanoid with amber fur, fox ears and tail wearing purple tunic. Columns left to right: 1 standing idle, 2 walking right left foot forward, 3 walking right right foot forward, 4 swinging small axe chopping, 5 carrying a bundle of wood, 6 lying down sleeping. Facing RIGHT in all standing/action frames, three-quarter top-down view. Cute detailed readable pixel art, dark earthy outline, compact WorldBox-like original characters. Equal rectangular cells evenly spaced. Entire figures INSIDE their cell with generous clear alpha margin, same ground baseline and body size per row. Exact 18 figures only. Transparent alpha background, no gradients/shadows/glow/gridlines/labels/text. No objects outside figures. Animation frames, not concept art."
+    },
+    {
+      "file": "wildlife-animation-v1.png",
+      "rows": [
+        "white woolly sheep",
+        "gray wolf",
+        "brown deer with antlers",
+        "small brown rabbit",
+        "red fox with white tail tip"
+      ],
+      "framesPerRow": 6,
+      "prompt": "Production transparent pixel-art animal animation sprite sheet for top-down fantasy god sandbox. EXACTLY 6 columns x5rows, exactly30 complete animals. Rows in this order: white woolly sheep; gray wolf; brown deer with antlers; small brown rabbit; red fox with white tail tip. Same animal identity/body size repeated across each row. Columns:1 idle standing facing RIGHT,2 walk right strideA,3 walk right strideB,4 action sheep/deer/rabbit head lowered grazing and wolf/fox short attack lunge,5 alert looking up ears perked facing right,6 curled lying asleep. 3/4 slightly overhead sideview, compact original beautiful pixel sprites, dark brown outline, restrained earthy palette, no shading outside silhouettes. All frames entire animal within equally spaced rectangularcells with generous TRANSPARENT margins and alignedfeet. Transparent alpha background, no text, labels, grid, gradients, halos or extra props. Atlas for runtime game animation."
+    },
+    {
+      "file": "dinosaurs-animation-v1.png",
+      "rows": [
+        "green Stegosaurus with back plates",
+        "reddish brown Allosaurus biped predator",
+        "blue green Triceratops with three horns",
+        "gold green Velociraptor biped predator"
+      ],
+      "framesPerRow": 6,
+      "prompt": "A production TRANSPARENT sprite animation atlas for original pixel sandbox game. EXACTLY six columns and four rows,24 sprites. Each row has same dinosaur, consistent body size, all facing RIGHT. Rows top to bottom: green Stegosaurus with back plates; reddish brown Allosaurus biped predator; blue green Triceratops with three horns; gold green Velociraptor biped predator. Six column frames: idle standing; walking stride A; walking stride B; grazing head lowered for Stegosaurus/Triceratops or biting attack for Allosaurus/Velociraptor; alert head raised; sleeping curled/resting on ground. Tiny readable detailed PIXEL ART, 3/4 topdown sideview, dark earthy outline, restrained colors. Strict equal cells, whole tails/horns/heads contained inside each cell, generous invisible padding all sides. Each row on common ground baseline. Transparent ALPHA background, no text, borders, gridlines, gradients, glow, ground shadows, blood or scenery."
+    },
+    {
+      "file": "ice-animation-v1.png",
+      "rows": [
+        "brown woolly mammoth with curved ivory tusks",
+        "golden saber-toothed cat with long curved fangs"
+      ],
+      "framesPerRow": 6,
+      "prompt": "Transparent PNG production sprite sheet, exactly 6columns x2rows,12 complete animal frames. Row1: brown woolly mammoth with curved ivory tusks. Row2: golden saber-toothed cat with long curved fangs. Each column same species consistent size, facing RIGHT: idle standing, walk stride A, walk stride B, grazing for mammoth / biting lunge for saber cat, alert head up, sleeping on ground. Attractive original crisp pixel art in compact WorldBox-like top-down god sandbox style, three-quarter overhead side profile, earthy dark outlines, no ambient halos. Keep all tusks/tails inside individual cells with ample transparent padding. Exactly equal spacing, feet aligned common ground for each row. Genuine transparent ALPHA everywhere outside animals, no text/labels/lines/gradients/grid/scenery/shadows."
+    }
+  ]
+}
