@@ -54,5 +54,59 @@
       "framesPerRow": 6,
       "prompt": "Transparent PNG production sprite sheet, exactly 6columns x2rows,12 complete animal frames. Row1: brown woolly mammoth with curved ivory tusks. Row2: golden saber-toothed cat with long curved fangs. Each column same species consistent size, facing RIGHT: idle standing, walk stride A, walk stride B, grazing for mammoth / biting lunge for saber cat, alert head up, sleeping on ground. Attractive original crisp pixel art in compact WorldBox-like top-down god sandbox style, three-quarter overhead side profile, earthy dark outlines, no ambient halos. Keep all tusks/tails inside individual cells with ample transparent padding. Exactly equal spacing, feet aligned common ground for each row. Genuine transparent ALPHA everywhere outside animals, no text/labels/lines/gradients/grid/scenery/shadows."
     }
+  ],
+  "walkCycles": [
+    {
+      "file": "people-light-walk-v2.png",
+      "rows": [
+        "human peasant with brown hair and teal tunic",
+        "slender elf with pointy ears, blond hair and green tunic",
+        "short stocky dwarf with orange beard and bronze work clothes"
+      ],
+      "prompt": "Use input only as character-design reference. Create NEW animation sheet with EXACTLY8 columns x3 rows. Rows: human peasant with brown hair and teal tunic; slender elf with pointy ears, blond hair and green tunic; short stocky dwarf with orange beard and bronze work clothes. ALL eight columns are successive frames of ONE smooth looping WALK CYCLE facingRIGHT. Contact-left, down-left, passing-left, up-left, contact-right, down-right, passing-right, up-right. Real alternating feet with opposite arm swing; same torso/head position, anatomy, outfit, scale, foot ground baseline EVERY frame. Last flows into first without jump. Original compact pixel art,3/4 topdown sideprofile matching reference. Equal cells, generous alpha margin, entire characters fully inside cells. Transparent alpha PNG, no text/grid/halos/background/shadows; exactly24 characters. No idle/work/sleep frames in this walking sheet.",
+      "framesPerRow": 8
+    },
+    {
+      "file": "people-dark-walk-v2.png",
+      "rows": [
+        "muscular green orc wearing brown leather",
+        "small olive goblin with pointed ears wearing blue miner clothes",
+        "fox beastkin humanoid with amber fur, fox ears and tail wearing purple tunic"
+      ],
+      "prompt": "Use input only as character-design reference. Create NEW animation sheet with EXACTLY8 columns x3 rows. Rows: muscular green orc wearing brown leather; small olive goblin with pointed ears wearing blue miner clothes; fox beastkin humanoid with amber fur, fox ears and tail wearing purple tunic. ALL eight columns are successive frames of ONE smooth looping WALK CYCLE facingRIGHT. Contact-left, down-left, passing-left, up-left, contact-right, down-right, passing-right, up-right. Real alternating feet with opposite arm swing; same torso/head position, anatomy, outfit, scale, foot ground baseline EVERY frame. Last flows into first without jump. Original compact pixel art,3/4 topdown sideprofile matching reference. Equal cells, generous alpha margin, entire characters fully inside cells. Transparent alpha PNG, no text/grid/halos/background/shadows; exactly24 characters. No idle/work/sleep frames in this walking sheet.",
+      "framesPerRow": 8
+    },
+    {
+      "file": "wildlife-animation-walk-v2.png",
+      "rows": [
+        "white woolly sheep",
+        "gray wolf",
+        "brown deer with antlers",
+        "small brown rabbit",
+        "red fox with white tail tip"
+      ],
+      "prompt": "Use input solely as appearance reference. NEW transparent sprite sheet EXACTLY8 columns x5rows. Rows white woolly sheep; gray wolf; brown deer with antlers; small brown rabbit; red fox with white tail tip. Each row8 successive poses of one smooth looping rightward WALK CYCLE: contact, down, passing,up for first legpair, contact/down/passing/up for opposite legpair. Distinct foot/leg articulation at every frame, quadruped gait, rabbit natural small hop. Same body/head size and fixed center in each equal cell; stable ground baseline, subtle breathing only. Feet clearly alternate. Original compact3/4 overhead pixel-art animals consistent reference. Generous transparent padding, complete tails/antlers in each cell. Exactly40 animals. No text/grid/halos/shadows/background. ALL columns walking, no idle/action/sleep.",
+      "framesPerRow": 8
+    },
+    {
+      "file": "dinosaurs-animation-walk-v2.png",
+      "rows": [
+        "green Stegosaurus with back plates",
+        "reddish brown Allosaurus biped predator",
+        "blue green Triceratops with three horns",
+        "gold green Velociraptor biped predator"
+      ],
+      "prompt": "Use input as appearance reference only. NEW transparent sprite sheet EXACTLY8columns x4rows. Rows: green Stegosaurus with back plates; reddish brown Allosaurus biped predator; blue green Triceratops with three horns; gold green Velociraptor biped predator. Each row is ONE smoothly looping8frame WALK CYCLE facingRIGHT: contact down passing up of first side, contact down passing up of opposite side. Stegosaurus/Triceratops quadrupedal stepping, Allosaurus/Velociraptor bipedal alternate feet; tails counterbalance subtly. Eight distinct intermediate leg poses, no abrupt jump from last to first. Same torso/head position, dimensions, proportions, silhouette scale across all frames; aligned ground baseline. Equal cells with generous alpha padding, complete tail and horns INSIDE each cell. Original compact pixel art,3/4 overhead sideprofile consistentreference. Transparent ALPHA PNG, no text/grid/halos/shadows/background. Exactly32 dinosaurs, no idle/sleep/action columns.",
+      "framesPerRow": 8
+    },
+    {
+      "file": "ice-animation-walk-v2.png",
+      "rows": [
+        "brown woolly mammoth with curved ivory tusks",
+        "golden saber-toothed cat with long curved fangs"
+      ],
+      "prompt": "EDIT this atlas into EXACTLY EIGHT frames PER ROW (currently only seven). Add missing eighth walking frame at the right end of both rows, and shrink all animals enough to fit. Two rows: mammoth and saber cat. Entire canvas wide4:1. Invisible equal grid of8columns x2rows,16 animals total, not14. Each animal has large transparent margins and no overlaps. Full loop of8different foot poses. Maintain character appearance, facingright and fixed ground baseline. Transparent alpha PNG. No text/numbers/grid/glow/scenery.",
+      "framesPerRow": 8
+    }
   ]
 }

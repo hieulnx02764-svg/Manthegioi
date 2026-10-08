@@ -1,5 +1,9 @@
 # Mầm Thế Giới
 
+## Bản12.2 — Chu kỳ đi tám khung
+
+Thêm5 sheet đi cho đủ17 loại,136 khung mới. Tổng238 khung gồm trạng thái cũ. Sửa pha60% bị ngắt giữa hai tư thế và bóng kép bằng cách vẽ một khung đi rõ mỗi lần, chọn trong chu kỳ8 theo quãng đường di chuyển. Ngưỡng bắt đầu/dừng khác nhau tránh rung ở tốc độ thấp. Căn đầu từng khung theo hình đứng để giữ vị trí thân; metadata silhouette loại mảnh rời từ ô lân cận khi chuẩn bị canvas, giữ nguyênPNGgốc. Người mang gỗ dùng thân mang vật liệu và chân đi. Gallery dùng vòngRAF, đồng hồ tích lũy không nhảy pha khi đổi tốc độ; xem đầy đủ8 khung và thử½×/1×/1½×. Prompt củaPNGtạo bằngimagegen tích hợp nằm trong assets/animation/ASSETS.json. Đã kiểm tra136bounds, chu kỳ8, hysteresis, một hình opaque, mang gỗ, save/load và chạy gallery trên trình duyệt.
+
 ## Bản12.1 — Sprite sheet toàn bộ sinh vật
 
 Năm PNG RGBA mới trong `dist/assets/animation/`:6 tộc người,5 động vật thường,6 sinh vật cổ đại, tổng17 loại ×6 khung =102. Khung: đứng, bước A/B, làm việc/kiếm ăn/tấn công, mang gỗ/cảnh giác, ngủ. Sheet được chuẩn hóa theo alpha một lần khi tải; các cá thể dùng chung canvas64px, chọn khung theo chuyển động/hành động và lật đúng chiều. Người đang mang vật liệu dùng thân mang gỗ và chân đi. Trẻ em/con non thu nhỏ; người đang trong nhà vẫn được ẩn. Lớp chiều sâu dùng kích thước sprite mới. Trang `dist/sprite-gallery.html` xem đủ khung và tảiPNGgốc.
